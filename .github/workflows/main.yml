@@ -1,0 +1,44 @@
+cab-booking-app/
+├─ backend/
+│  ├─ package.json
+│  ├─ .env.example
+│  ├─ src/
+│  │  ├─ server.js
+│  │  ├─ db.js
+│  │  ├─ models/
+│  │  │  └─ schema.sql
+│  │  ├─ middleware/
+│  │  │  └─ auth.js
+│  │  ├─ routes/
+│  │  │  ├─ auth.js
+│  │  │  ├─ users.js
+│  │  │  ├─ drivers.js
+│  │  │  ├─ bookings.js
+│  │  │  ├─ admin.js
+│  │  │  └─ payments.js
+│  │  └─ uploads/   (create at runtime)
+│  └─ README.md
+|
+├─ frontend/
+│  ├─ package.json
+│  ├─ vite.config.js
+│  ├─ index.html
+│  ├─ src/
+│  │  ├─ main.jsx
+│  │  ├─ App.jsx
+│  │  ├─ services/
+│  │  │  ├─ api.js
+│  │  │  └─ socket.js
+│  │  ├─ pages/
+│  │  │  ├─ Home.jsx
+│  │  │  ├─ Login.jsx
+│  │  │  ├─ Signup.jsx
+│  │  │  ├─ SearchRides.jsx
+│  │  │  ├─ RideDetails.jsx
+│  │  │  ├─ DriverUpload.jsx
+│  │  │  ├─ Chat.jsx
+│  │  │  └─ AdminPanel.jsx
+│  └─ README.md
+|
+├─ .gitignore
+└─ README.md
